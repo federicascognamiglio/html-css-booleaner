@@ -14,7 +14,7 @@
 /* Sezione titolo e info articolo */
 h1 {margin-bottom: 5px;}
 
-#autore {color: #999999;
+.testo-grigio {color: #828282;
     font-size: 12px;
 }
 #the-booleaner {color: #55c1ff;}
@@ -26,18 +26,37 @@ h1 {margin-bottom: 5px;}
 .tim-images {height: 300px;
     margin-top: 15px;
 }
-
-.didascalie {font-size: 10px;
+.didascalie {font-size: 8px;
 margin-top: 3px;}
 /* /Sezione immagini e didascalie */
 
 /* Sezione contenuto dell'articolo */
+.main-text {font-size: 12px;}
 .highlight {background-color: #ffff00;}
 /* Tabella */
-.table {font-size: 12px;}
 .tab-head {background-color: #2aaaf3;
     color: white;
     text-align: left;
 }
 .colored-row {background-color: #aceaff;}
 /* /Tabella */
+
+/* Footer */
+.img-footer-1 {color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-image: url(./img/monitor.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+.img-footer-2 {color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-image: url(./img/graph.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+/* /Footer */
