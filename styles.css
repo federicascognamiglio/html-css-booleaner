@@ -1,14 +1,17 @@
+/* Header */
 .header {
     background-color: #4ea0ff;
     background-image: url(./img/pattern.png);
     background-size: 250px;
     }
-
 #logo {
     margin-top: 25px;
     width: 140px;
 }
+/* /Header */
 
+/* Main */
+/* Sezione titolo e info articolo */
 h1 {margin-bottom: 5px;}
 
 #autore {color: #999999;
@@ -17,10 +20,24 @@ h1 {margin-bottom: 5px;}
 #the-booleaner {color: #55c1ff;}
 #data {color: #999999;
     font-size: 8px;}
+/* Sezione titolo e info articolo */
 
+/* Sezione immagini e didascalie */
 .tim-images {height: 300px;
     margin-top: 15px;
 }
 
 .didascalie {font-size: 10px;
 margin-top: 3px;}
+/* /Sezione immagini e didascalie */
+
+/* Sezione contenuto dell'articolo */
+.highlight {background-color: #ffff00;}
+/* Tabella */
+.table {font-size: 12px;}
+.tab-head {background-color: #2aaaf3;
+    color: white;
+    text-align: left;
+}
+.colored-row {background-color: #aceaff;}
+/* /Tabella */
